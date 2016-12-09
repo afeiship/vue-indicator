@@ -1,6 +1,6 @@
 {
   "name": "vue-indicator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MintUi(Vue2.x) widget spinner based on sass &amp; webpack.",
   "author": "afeiship <1290657123@qq.com>",
   "keywords": [
