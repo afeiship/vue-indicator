@@ -1,0 +1,45 @@
+.mint {
+  &-indicator {
+    transition: opacity .3s linear;
+
+    &-wrapper {
+      position: fixed;
+      top:38.2%;
+      left:50%;
+      transform: translate(-50%, -50%);
+      border-radius: 5px;
+      background: rgba(0, 0, 0, 0.7);
+      color: white;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+    &-text {
+      display: block;
+      color: #fff;
+      text-align: center;
+      margin-top: 10px;
+      font-size: 16px;
+      user-select:none;
+    }
+
+    &-spin {
+      display: inline-block;
+      text-align: center;
+    }
+
+    &-mask {
+      position: fixed;
+      left:0;top:0;
+      right:0;bottom:0;
+      size: 100%;
+      opacity: 0;
+      background: transparent;
+    }
+  }
+}
+
+.mint-indicator-enter,
+.mint-indicator-leave-active {
+  opacity: 0;
+}
